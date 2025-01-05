@@ -1,0 +1,26 @@
+{
+  "name": "brakebills_ntp",
+  "version": "0.1.1",
+  "author": "meloddik",
+  "summary": "Module to manage NTP",
+  "license": "Apache-2.0",
+  "source": "https://github.com/meloddik/puppet-ntp-module.git",
+  "project_page": "https://github.com/meloddik/puppet-ntp-module",
+  "tags": [
+    "ntp"
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.17.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "20.04"
+      ]
+    }
+  ]
+}
