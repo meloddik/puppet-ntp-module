@@ -2,7 +2,7 @@ class brakebills_ntp {
     ensure_packages('ntp')
 
     file {'/etc/ntp.conf':
-        source  => 'puppet: /brakebills_ntp/ntp.conf',
+        source  => 'puppet:///modules/brakebills_ntp/ntp.conf',
         notify  => Service['ntp'],
         require => Package['ntp'],
     }
